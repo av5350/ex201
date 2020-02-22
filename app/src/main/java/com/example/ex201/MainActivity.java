@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn = (Button)findViewById(R.id.btn);
-        iv = (ImageView)findViewById(R.id.iv);
+        btn=(Button)findViewById(R.id.btn);
+        iv=(ImageView)findViewById(R.id.iv);
     }
 
     public void random(View view) {
